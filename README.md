@@ -1,1 +1,8 @@
 # FlightPricePrediction
+
+We made use of the XGBoost  algorithm, which is well-known for its efficacy and accuracy, in order to make projections regarding the "Booking Class Fare USD" for aircraft fares. The gradient boosting framework successfully manages enormous datasets and addresses the problem of overfitting by including various methods of regularisation. In order for the model to accurately capture the complex nature of the price structure for flight reservations, it required a thorough collection of 472 attributes that included both categorical and numerical variables. This was done in order to ensure that the model was as accurate as possible. The introduction of temporal data into the investigation was one of the most important aspects of the study. More specifically, the Day, Month, Year, Hour, and Minute variables were all included. Because of this, the model was able to take into account temporal fluctuations, which included time-based trends, seasonal swings, and other time-sensitive features. In addition, we have constructed a one-of-a-kind property that we refer to as "Day_of_Week." This attribute contains the consistent patterns that are seen across multiple days of the week and is named after the day of the week. This quality proved to be very acute in identifying the nuances that are typically noted in airline price, such as rises over the weekends or drops in the middle of the week, for example. The incorporation of these features inside the robust framework of XGBoost made it possible to construct a highly accurate predictive model, which shown an excellent level of precision when forecasting the "Booking Class Fare USD."
+
+Authors:
+1)DIPTARUP CHAKRAVORTY
+2)ANIRUDDHA MUKHERJEE
+3)RITIKA BANERJEE
